@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <title>CV Leonardo Pezoa</title>
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     </head>
     <body>
         <header>
@@ -27,10 +28,11 @@
             <div class="ficha-datos">
         <h3>Datos de contacto</h3>
         <ul>
-            <li><strong>Email:</strong> <a href="mailto:leonardo@pezoa.com">leonardo@pezoa.com</a></li>
-            <li><strong>Cel:</strong> 11 3843 9390</li>
-            <li><strong>LinkedIn:</strong><a href="https://www.linkedin.com/in/leonardo-pezoa/" target="_blank">@Leonardo Pezoa </a></li>
-            <li><strong>Itch.io:</strong> <a href="https://herodev99.itch.io/" target="_blank">herodev99.itch.io </a></li>
+            <li><i class="fas fa-envelope"></i> <strong>Email:</strong> <a href="mailto:leonardo@pezoa.com">leonardo@pezoa.com</a></li>
+            <li><i class="fas fa-phone"></i> <strong>Cel:</strong> 11 3843 9390</li>
+            <li><i class="fab fa-linkedin"></i> <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/leonardo-pezoa/" target="_blank">@Leonardo Pezoa</a></li>
+            <li><i class="fab fa-github"></i> <strong>GitHub:</strong> <a href="https://github.com/Leopez99/" target="_blank">Leopezo99</a></li>
+            <li><i class="fa-brands fa-itch-io"></i> <strong>itch.io:</strong> <a href="https://herodev99.itch.io/" target="_blank">herodev99</a></li>
         </ul>
     </div>
 
@@ -62,15 +64,25 @@
         <div class="item-estudio">
             <h4>Diplomatura en Programación .NET</h4>
             <p><strong>Centro de e-Learning UTN FRBA</strong> — Ene 2023 - May 2023</p>
-            <p><em>Código de validación:</em> <a href="https://sigead.utnba.centrodeelearning.com/alumnos/validar_certificado" target="_blank">CER-NRV03VB8-834881</a></p>
+            <p>
+                <em>Código de validación:</em>
+                <span id="codigo1">CER-NRV03VB8-834881</span>
+                <button class="button-copy" onclick="copyText('codigo1')">Copiar</button>
+                <a href="https://sigead.utnba.centrodeelearning.com/alumnos/validar_certificado" target="_blank">Página de validación</a>
+            </p>
         </div>
-
+        
         <div class="item-estudio">
             <h4>Experto universitario en Programación de videojuegos con Unity</h4>
             <p><strong>Centro de e-Learning UTN FRBA</strong> — Ago 2022 - Oct 2022</p>
-            <p><em>Código de validación:</em> <a href="https://sigead.utnba.centrodeelearning.com/alumnos/validar_certificado" target="_blank">CER-Y00WHDB7-767578</a></p>
+            <p>
+                <em>Código de validación:</em>
+                <span id="codigo2">CER-Y00WHDB7-767578</span>
+                <button class="button-copy" onclick="copyText('codigo2')">Copiar</button>
+                <a href="https://sigead.utnba.centrodeelearning.com/alumnos/validar_certificado" target="_blank">Página de validación</a>
+            </p>
         </div>
-
+        
         <div class="item-estudio">
             <h4>Diplomatura en Diseño de Videojuegos</h4>
             <p><strong>Universidad Nacional Guillermo Brown</strong> — Sep 2023 - Sep 2024</p>
@@ -80,19 +92,19 @@
             <h4>Iniciación en Programación de Videojuegos con Godot</h4>
             <p><strong>Universidad Nacional de Quilmes</strong> — Oct 2024 - Dic 2024</p>
         </div>
-
+        
         <div class="item-estudio">
             <h4>Tecnicatura Universitaria en Programación</h4>
             <p><strong>Universidad Nacional de Quilmes</strong> — En curso (3er año)</p>
         </div>
-
+        
         <div class="item-estudio">
             <h4>Bachiller en Ciencias Sociales</h4>
             <p><strong>Colegio Secundario Instituto Adolfo Alsina</strong> — Completado en 2017</p>
         </div>
-
+        
     </div>
-
-
+    
+    <script src="js/script.js"></script>
     </body>
 </html>
